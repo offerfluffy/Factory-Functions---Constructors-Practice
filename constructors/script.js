@@ -14,7 +14,7 @@ function SuperElement(tag, text, color){
     console.log(this)
   });
 
-  /* 
+  /* Worse way
   this.setText = function(text) {
     this.el.textContent = text;
   }
@@ -31,6 +31,7 @@ function SuperElement(tag, text, color){
   // return this;
 }
 
+// Better way
 SuperElement.prototype.setText = function(text) {
   this.el.textContent = text;
 };
