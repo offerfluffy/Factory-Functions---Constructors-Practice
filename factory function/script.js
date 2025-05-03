@@ -1,3 +1,6 @@
+// Factory Function is a function that takes some arguments
+// and converts them to an object
+
 function createElement(tag, text, color) {
   const el = document.createElement(tag);
   el.innerText = text;

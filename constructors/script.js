@@ -1,6 +1,6 @@
 // Constructor is a function that creates objects
 
-function SuperElement(tag, text, color){
+function SuperElement(tag, text, color){ // by convetion starts with Capital 
   // const this = {};
   let private = "private"
 
@@ -64,5 +64,5 @@ SuperElement.prototype.reveal = function() {
     - Slightly more verbose syntax.
 */
 
-const h1 = new SuperElement("h1", "Hello World", "Red")
+const h1 = new SuperElement("h1", "Hello World", "Red") // Object instanceation
 console.log(h1)
